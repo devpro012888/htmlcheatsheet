@@ -4,4 +4,26 @@
 
 table,th, td {
     border: 1px solid;
+    background-color: white;
+}
+
+body {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+header {
+    border: 10px solid;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.info {
+    border: 1px solid;
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
 }

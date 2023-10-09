@@ -4,17 +4,19 @@
             <title>HTML Cheat Sheet</title>
             <link href="html.css" type="text/css" rel="stylesheet" />
         </head>
+        <header><h1 class="title">HyperText Markup Language (HTML) Cheatsheet</h1></header>
     <body>
-        <h1 class="title">HyperText Markup Language Cheatsheet</h1>
+        <section class="info">
         <h2>What is HTML?</h2>
         <p>The <strong>HyperText Markup Language</strong> or <strong>HTML</strong>
             is the standard markup language for documents designed to be displayed
             in a web browser.
         </p>
+        </section>
     <table>
         <tr>
             <th colspan="4">
-                HyperText Markup Language - Text
+                Text
             </th>
         </tr>
         <tr>
@@ -126,6 +128,110 @@
             </td>
             <td>To create a break between themes, such as a change of topic in a book or a new scene
             in a play - you can add a horizontal rule between sections using the &lt;hr /&gt; tag.</td>
+        </tr>
+        <tr>
+            <td>Strong</td>
+            <td>&lt;Strong&gt;</td>
+            <td><p><Strong>Beware:</Strong> Pickpockets operate in this area</p>
+                <p>This toy has many small pieces and is <strong>not suitable
+                    for children under five years old.</strong></p>
+            </td>
+            <td>The use of the &lt;Strong&gt; element indicates that its content
+                has strong importance. For example, the words contained in this element
+                might be said with strong emphasis.
+            </td>
+        </tr>
+        <tr>
+            <td>Emphasis</td>
+            <td>&lt;em&gt;</td>
+            <td><p>I <em>think</em> Ivy was the first.</p>
+                <p>I think <em>Ivy</em> was the first</p>
+                <p>I think Ivy was the <em>first</em></p>
+            </td>
+            <td>The &lt;em&gt;element indicates emphasis that subtly changes
+                the meaning of a sentence.
+            </td>
+        </tr>
+        <tr>
+            <td>Quotations</td>
+            <td>&lt;blockquote&gt;<br>&lt;q&gt;</td>
+            <td><blockquote cite="http://en.wikipedia.org/wiki/Winnie-the
+                -Pooh"><p>Did you ever stop to think, and forget to start again</p></blockquote>
+                <p>As A.A. Milne said, <q>Some people talk to animals.  Not many listen though
+                    That's the problem.</q></p>
+            </td>
+            <td><p>The &lt;blockquote&gt; element is used for longer quotes that take up an
+                entire paragraph.</p>
+                <p>The &lt;q&gt; element is used for shorter quotes that site within a
+                    paragraph.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Abbreviations and Acronyms</td>
+            <td>&lt;abbr&gt;<br>&lt;acronym&gt;</td>
+            <td><p><abbr title="Professor">Prof</abbr> Stephen Hawking is a theoretical
+                physicist and cosmologist</p>
+                <p><acronym title="National Aeronautics and Space Administration">NASA</acronym>
+                do some crazy space stuff.</p>
+            </td>
+            <td>If you use an abbreviation or an acronym, then use &lt;abbr&gt; element
+                can be used.  A title attribute on the opening tag is used to specify the 
+                full term.
+            </td>
+        </tr>
+        <tr>
+            <td>Citations</td>
+            <td>&ltcite&gt;</td>
+            <td><p><cite>A Brief History of Time</cite> by Stephen Hawkiing has sold over
+                ten million copies worldwide</p>
+            </td>
+            <td>When you are referencing a piece of work such as a book, film or research
+                paper, the &lt;cite&gt;element can be used to indicate where the citation is from.
+            </td>
+        </tr>
+        <tr>
+            <td>Definition</td>
+            <td>&lt;dfn&gt;</td>
+            <td><p>A<dfn> black hole</dfn>is a region of space from which nothing, not even
+                 light, can escape.</p>
+            </td>
+            <td>The &lt;dfn&gt; element is used to indicate the defining instance of a new
+                term.
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>&lt;address&gt;</td>
+            <td><address><p><a href="mailto:homer@example.org">homer@example.org</a></p>
+                <p>742 Evergreen Terrace, Springfield.</p></address>
+            </td>
+            <td><p>The &lt;address&gt; element has quite a specific use: to contain contact
+                details for the author of the page</p>
+                <p>It can contain a physical address, but it does not have to.  For example,
+                    it may also contain a phone number or email.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Insert and Delete</td>
+            <td>&lt;ins&gt;<br>&lt;del&gt;</td>
+            <td><p>It was the <del>worst</del><ins> best</ins> idea she had ever had</p></td>
+            <td>The &lt;inst&gt; element can be used to show content that has been inserted
+                into a document, while the &lt;del&gt; element can show text that has been
+                deleted from it.
+            </td>
+        </tr>
+        <tr>
+            <td>Strike Through</td>
+            <td>&lt;s&gt;</td>
+            <td><p>Laptop computer</p>
+                <p><s>Was $995</s></p>
+                <p>Now only $375</p>
+            </td>
+            <td>The &lt;s&gt; element indicates something that is no longer accurate or 
+                relevant (but that should not be deleted).
+            </td>
         </tr>
     </table>
     </body>
