@@ -8,6 +8,16 @@ table,th, td {
     border-collapse: collapse;
 }
 
+td {
+    text-align: center;
+    padding: 3px;
+}
+
+.thead {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
 body {
     width: 1300px;
     margin: 0 auto;
@@ -34,4 +44,8 @@ header {
 img {
     float: left;
     padding-left: 30px;
+}
+
+.cssimg {
+    float: right;
 }
