@@ -49,3 +49,73 @@ img {
 .cssimg {
     float: right;
 }
+
+.csstable {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.cssthead {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sansserif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.fontsize {
+    font-size: 30px;
+}
+
+.fontweight {
+    font-weight: bold;
+}
+
+.fontstyle {
+    font-style: italic;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.textd {
+    text-decoration: underline;
+}
+
+.letterspacing {
+    letter-spacing: 0.3em;
+}
+
+.wordspacing {
+    word-spacing: 0.3em;
+}
+
+.tleft {
+    text-align: left;
+}
+
+.tjustified {
+    text-align: justify;
+}
+
+.tright {
+    text-align: right;
+}

@@ -4,7 +4,7 @@
             <title>HTML Cheat Sheet</title>
             <link href="html.css" type="text/css" rel="stylesheet" />
         </head>
-        <header><img src="html logo.png" height="100px" width="100px"><img src="css logo.png" class="cssimg" height="100px" width="100px">
+        <header><img src="html logo.png" height="100px" width="100px" alt="html image"><img src="css logo.png" class="cssimg" height="100px" width="100px" alt="css image">
                 <h1 class="title">HTML and CSS Cheatsheet</h1>
         </header>
     <body>
@@ -14,11 +14,18 @@
             is the standard markup language for documents designed to be displayed
             in a web browser.
         </p>
+        <hr>
+        <h2>What is CSS?</h2>
+        <p><strong>Cascading Style Sheets (CSS)</strong> is a style sheet
+            language used for describing the presentation of a document
+            written in a markup language such as HTML or XML (including XML dialects
+            such as SVG, MathML or XHTML).  CSS is a cornerstone technology of 
+            the World Wide Web, alongside HTML and Javascript.</p>
         </section>
     <table>
         <tr class="thead">
             <th colspan="4">
-                Text
+                HTML Text
             </th>
         </tr>
         <tr>
@@ -233,6 +240,109 @@
             </td>
             <td>The &lt;s&gt; element indicates something that is no longer accurate or 
                 relevant (but that should not be deleted).
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table class="csstable">
+        <tr>
+            <th colspan="4" class="cssthead">CSS Text</th>
+        </tr>
+        <tr>
+            <th>Type</th>
+            <th>Element</th>
+            <th>Example</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Font Family</td>
+            <td>Serif</td>
+            <td class="serif">This is the serif font</td>
+            <td>Serif fonts have extra details on the ends of the main strokes of the letters.
+                These details are known as serifs.
+            </td>
+        </tr>
+        <tr>
+            <td>Font Family</td>
+            <td>Sans-Serif</td>
+            <td class="sansserif">This is the sans serif font</td>
+            <td>Sans-serif fonts have straight ends to letters, and therefore have much cleaner
+                design.
+            </td>
+        </tr>
+        <tr>
+            <td>Font Family</td>
+            <td>Monospace</td>
+            <td class="monospace">This is the monospace font</td>
+            <td>Every letter in a monospace (for fixed-width) font is the same width.
+                (Non-monospace fonts have different widths)
+            </td>
+        </tr>
+        <tr>
+            <td>Font Size</td>
+            <td>font-size</td>
+            <td class="fontsize">This is the example of font size</td>
+            <td>The font-size property enables you to specify a size for the font. 
+                There are several ways to specify the sixe of a font, such as pixels, percentages,
+                 and ems.  This example has a size of 30 pixels.
+            </td>
+        </tr>
+        <tr>
+            <td>Font Weight</td>
+            <td>font-weight</td>
+            <td class="fontweight">This is the example of font weight</td>
+            <td>The font-weight property allows you to create bold text.  There are two values that
+                this property commontly takes: normal and bold.
+            </td>
+        </tr>
+            <td>Font Style</td>
+            <td>font-style</td>
+            <td class="fontstyle">This is the example of font style</td>
+        <td>If you want to create italic text, you can use the font-style property.  There 
+            are three values this property can take: normal, italic, oblique.</td>
+        </tr>
+        <tr>
+            <td>Text Transform</td>
+            <td>text-transform</td>
+            <td><p class="uppercase">This is the example of uppercase font</p>
+                <p class="lowercase">This is the example of lowercase font</p>
+                <p class="capitalize">This is the example of capitalize font</p>
+            </td>
+            <td>The text-transform property is used to change the case of text giving it one 
+                of the following values, uppercase, lowercase, capitalize.
+            </td>
+        </tr>
+        <tr>
+            <td>Text Decoration</td>
+            <td>text-decoration</td>
+            <td class="textd">This is the example of text decoration</td>
+            <td>The text-decoration property allows you to specify the following values: none,
+                underline, overline, line-through, blink.
+            </td>
+        </tr>
+        <tr>
+            <td>Letter Spacing</td>
+            <td>letter-spacing</td>
+            <td class="letterspacing">This is the example of letter spacing</td>
+            <td><strong>Kerning</strong> is the term typographers use for the space between
+                each letter.  You can control the space between each letter with the letter-spacing
+                property.</td>
+        </tr>
+        <tr>
+            <td>Word Spacing</td>
+            <td>word-spacing</td>
+            <td class="wordspacing">This is the example of word spacing.</td>
+            <td>You can also control the gap between words using the word-spacing property.</td>
+        </tr>
+        <tr>
+            <td>Text Align</td>
+            <td>text-align</td>
+            <td><p class="tleft">You can align text to the left</p>
+                <p class="tjustified">Text can be justified</p>
+                <p class="tright">Text can be aligned to the right.</p>
+            </td>
+            <td>The text-align property allows you to control the alignment of text.  The property
+                can take one of four values: left, right, center, justify.
             </td>
         </tr>
     </table>
